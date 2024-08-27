@@ -1,0 +1,26 @@
+
+install python 
+install pip
+install conda
+Create conda env with python 3.9
+activate env
+optional: install simple_image_download==0.4 to get a dataset
+install labelimg. use it to create tags
+
+required folders:
+
+runs
+train
+	--->images
+	--->labels
+val
+	--->images
+	--->labels
+	
+data_custom.yaml
+test-img.py
+test-vid.py
+train.py
+
+yolov{version}{mode}.pt #used to train. Sometimes it appears by itself xd
+result.pt #depending of the name you give to the model. Used to test

@@ -1,0 +1,6 @@
+train: C:\Users\maldo\Documents\Development\object-detection\train
+val: C:\Users\maldo\Documents\Development\object-detection\val
+
+nc: 1
+
+names: ["piece"]
